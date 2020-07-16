@@ -9,5 +9,6 @@ def using_insert(array, string)
 end
 
 def using_uniq(index)
+  binding.pry 
   array.uniq
 end
