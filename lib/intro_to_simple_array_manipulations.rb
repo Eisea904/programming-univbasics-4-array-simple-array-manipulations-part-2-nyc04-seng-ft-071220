@@ -13,6 +13,7 @@ def using_uniq(array)
 end
 
 def using_flatten(array)
+  array = ["Saxophone", ["Piano", 5], "Violin", "Drums", "Flute"]
   binding.pry
   array.flatten
 end
