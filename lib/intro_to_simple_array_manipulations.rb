@@ -13,5 +13,6 @@ def using_uniq(array)
 end
 
 def using_flatten(array)
+  binding.pry
   array.flatten
 end
